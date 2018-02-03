@@ -11,7 +11,7 @@ public class BoundedCounter {
     		this.value += 1;
 		}
         else {
-			this.value = 0;
+		this.value = 0;
 		}
     }
 
