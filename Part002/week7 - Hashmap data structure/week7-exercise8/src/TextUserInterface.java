@@ -80,7 +80,7 @@ public class TextUserInterface {
 	}
 	private void printFlights() {
 		for (Airplane airplane : airplanes) {
-			System.out.println(airplane.toStringWithFlight());
+			airplane.toStringWithFlight();
 		}
 		
 	}

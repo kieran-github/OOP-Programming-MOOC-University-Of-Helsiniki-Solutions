@@ -29,8 +29,10 @@ public class Airplane {
 		// TODO Auto-generated method stub
 		return this.id + " (" + this.capacity + ")";
 	}
-	public String toStringWithFlight() {
-		return this.id + " (" + this.capacity + ")" + this.flights.toString();
+	public void toStringWithFlight() {
+		for (Flight flight : flights) {
+			System.out.println(this.toString() + flight.toString());
+		}
 	}
 
 
